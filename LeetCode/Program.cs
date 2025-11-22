@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using LeetCode.Algebra.BinaryExponentiation;
+
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        var solution = new BinaryExponentiation();
+        solution.RunSolution();
+    }
+}
